@@ -40,6 +40,8 @@ A normalized MySQL database called `fast_foods_db` is created with five related 
 Tables includes **primary** and **foreign keys** to maintain referential integrity.  
 Data is loaded into MySQL using the `LOAD DATA INFILE` command.
 
+![Entity Relationship Diagram](https://github.com/Gabriel-Muli/-Fast-Foods-Delivery-Analytics-Project-Python-SQL-End-to-End-Data-Analysis/blob/main/erd.png)
+
 ---
 
 #### **3️⃣ Business Analysis (SQL Queries)**
@@ -748,7 +750,11 @@ on o.restaurant_id=r.restaurant_id
 where year(order_date)=2022
 group by restaurant_city;
 ```
+---
 
+👩🏽‍💻 **Author:** Gabriel Mwema  
+📧 **Email**: ianmuli5419@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/gabriel-mwema-7ab4b6262/)
 
 
 
